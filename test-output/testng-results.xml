@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13363" started-at="2020-03-15T07:30:03Z" finished-at="2020-03-15T07:30:16Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="12738" started-at="2020-03-15T07:30:03Z" finished-at="2020-03-15T07:30:15Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@30b8a058]" name="setUpClass" is-config="true" duration-ms="545" started-at="2020-03-15T07:30:03Z" finished-at="2020-03-15T07:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="EmployeeTest(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@30b8a058]" name="EmployeeTest" duration-ms="11969" started-at="2020-03-15T07:30:03Z" data-provider="features" finished-at="2020-03-15T07:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.TestRunner@30b8a058]" name="afterClass" is-config="true" duration-ms="18" started-at="2020-03-15T07:30:15Z" finished-at="2020-03-15T07:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Login -->
+    <test name="Employee" duration-ms="13363" started-at="2020-03-15T07:30:03Z" finished-at="2020-03-15T07:30:16Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@887af79]" name="setUpClass" is-config="true" duration-ms="542" started-at="2020-03-15T07:30:03Z" finished-at="2020-03-15T07:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="EmployeeTest(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@887af79]" name="EmployeeTest" duration-ms="12470" started-at="2020-03-15T07:30:03Z" data-provider="features" finished-at="2020-03-15T07:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.TestRunner@887af79]" name="afterClass" is-config="true" duration-ms="14" started-at="2020-03-15T07:30:16Z" finished-at="2020-03-15T07:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Employee -->
+  </suite> <!-- Suite -->
+</testng-results>

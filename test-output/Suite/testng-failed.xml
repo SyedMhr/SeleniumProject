@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="runner.ReportListener"/>
+    <listener class-name="runner.TestNgListener"/>
+  </listeners>
+  <test thread-count="5" name="Login(failed)" parallel="classes">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUpClass"/>
+          <include name="EmployeeTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="Employee(failed)" parallel="classes">
+    <classes>
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUpClass"/>
+          <include name="EmployeeTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Employee(failed) -->
+</suite> <!-- Failed suite [Suite] -->
